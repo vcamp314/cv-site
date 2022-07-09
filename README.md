@@ -1,3 +1,7 @@
+This web page project is to serve as a demonstration of the use of React and many of its popular frameworks.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
