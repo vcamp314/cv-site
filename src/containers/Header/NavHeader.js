@@ -33,8 +33,8 @@ export class NavHeader extends Component {
             <div className="header-container nav-header d-flex w-100 h-100 mx-auto flex-column"
                 style={{ minHeight: (this.props.currPage === Page.HOME ? '80vh' : this.props.headerHeight) }} >
 
-                <h1 className="cover-heading"> <strong>Senior Developer</strong></h1>
-                <p className="lead lead-subheading">Results-driven programmer with 8 years of experience developing, testing and maintaining applications.
+                <h1 className="cover-heading"> <strong>Software Developer</strong></h1>
+                <p className="lead lead-subheading">Results-driven senior programmer with 8 years of experience developing, testing and maintaining applications.
                 If you are looking to hire, please reach me <Link onClick={() => this.props.onPageSelected(Page.CONTACT)} className="cover-contact-link" to="/contact"> here</Link>.</p>
             </div>
         ); 
