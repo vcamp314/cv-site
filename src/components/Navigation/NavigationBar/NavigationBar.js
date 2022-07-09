@@ -47,24 +47,24 @@ class NavigationBar extends Component {
                 <NavItem className={navItemPadding}>
                   <NavLink className="nav-link"
                             activeClassName="active"   
-                            exact to="/" 
+                            exact to="/cv-site/" 
                             onClick={() => this.props.selectPage(Page.HOME)}><strong>HOME</strong>
                   </NavLink>
                 </NavItem>
                 <NavItem className={navItemPadding}>
                   <NavLink className="nav-link"
                             activeClassName="active" 
-                            exact to="/profile" 
+                            exact to="/cv-site/profile" 
                             onClick={() => this.props.selectPage(Page.PROFILE)}><strong>PROFILE</strong>
                   </NavLink>
                 </NavItem> 
                 <NavItem className={navItemPadding}>
-                  <a className="nav-link"  href="https://github.com/vcamp314/vitor-campos-website"><strong>GITHUB</strong></a>
+                  <a className="nav-link"  href="https://github.com/vcamp314/cv-site"><strong>GITHUB</strong></a>
                 </NavItem>
                 <NavItem className={navItemPadding}>
                   <NavLink className="nav-link"
                             activeClassName="active" 
-                            exact to="/contact" 
+                            exact to="/cv-site/contact" 
                             onClick={() => this.props.selectPage(Page.CONTACT)}><strong>CONTACT</strong>
                   </NavLink>
                 </NavItem>                  

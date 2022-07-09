@@ -21,7 +21,7 @@ const Footer = (props) => (
                     
                     <Col md={{ size: 4, offset: 1 }}> 
                         <div className="footer-text">
-                            <p>You can find the source code for this website on <a href="https://github.com/vcamp314/vitor-campos-website">GitHub. </a></p>
+                            <p>You can find the source code for this website on <a href="https://github.com/vcamp314/cv-site">GitHub. </a></p>
                             <p>Please do not hesitate to contact me if you have any questions.</p>
                             
                         </div>
@@ -35,7 +35,7 @@ const Footer = (props) => (
                                     <Row>
                                         <Col>
                                         <Link to="/contact" onClick={() => props.onPageSelected(Page.CONTACT)}><FontAwesomeIcon icon={faEnvelope} size="2x"  /></Link> <p></p>
-                                            <a href="https://github.com/vcamp314/vitor-campos-website"><FontAwesomeIcon icon={faGithub} size="2x"  /></a>
+                                            <a href="https://github.com/vcamp314/cv-site"><FontAwesomeIcon icon={faGithub} size="2x"  /></a>
                                         </Col>
 
                                     </Row>
@@ -50,16 +50,16 @@ const Footer = (props) => (
                                     <Row>
                                         <ul className="list-unstyled">
                                             <li>
-                                                <Link to="/" onClick={() => props.onPageSelected(Page.HOME)}>Home</Link>
+                                                <Link to="/cv-site/" onClick={() => props.onPageSelected(Page.HOME)}>Home</Link>
                                             </li>
                                             <li>
-                                                <Link to="/profile" onClick={() => props.onPageSelected(Page.PROFILE)}>Profile</Link>
+                                                <Link to="/cv-site/profile" onClick={() => props.onPageSelected(Page.PROFILE)}>Profile</Link>
                                             </li>
                                             <li>
-                                                <a href="https://github.com/vcamp314/vitor-campos-website">GitHub</a>
+                                                <a href="https://github.com/vcamp314/cv-site">GitHub</a>
                                             </li>
                                             <li>
-                                                <Link to="/contact" onClick={() => props.onPageSelected(Page.CONTACT)}>Contact</Link>
+                                                <Link to="/cv-site/contact" onClick={() => props.onPageSelected(Page.CONTACT)}>Contact</Link>
                                             </li>
                                         </ul>
                                     </Row>

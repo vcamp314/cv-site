@@ -82,6 +82,8 @@ export class Contact extends Component {
 
     render() {
 
+        
+
         if (this.state.isLoading) {
             return (
                 <div className="contact">
@@ -98,9 +100,10 @@ export class Contact extends Component {
             );
         } else {
             return (
-                <div className="contact">
-                    <ContactForm ValidSubmitHandler={this.ValidSubmitHandler} />
-                </div>
+                <div></div>
+                // <div className="contact">
+                //     <ContactForm ValidSubmitHandler={this.ValidSubmitHandler} />
+                // </div>
             );
         }
     }

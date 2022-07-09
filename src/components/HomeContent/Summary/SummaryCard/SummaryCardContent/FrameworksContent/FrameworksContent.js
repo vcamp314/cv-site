@@ -15,7 +15,7 @@ const summary = (props) => {
         <SummaryCardLayout icon={faReact} iconSize="4x" cardTitle="Frameworks">
 
             <CardText>My favourite frontend framework to use is
-                <Link className="priority-text" to="/profile" onClick={() => props.onSelectSkill("React")}> React.</Link>
+                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("React")}> React.</Link>
             </CardText>
 
             <SummaryCardSkillList

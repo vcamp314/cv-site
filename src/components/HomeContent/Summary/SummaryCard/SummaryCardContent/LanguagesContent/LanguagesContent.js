@@ -15,10 +15,10 @@ const summary = (props) => {
         <SummaryCardLayout icon={faJsSquare} iconSize="4x" cardTitle="Languages">
 
             <CardText>My best languages are
-                <Link className="priority-text" to="/profile" onClick={() => props.onSelectSkill("JavaScript")}> JavaScript
+                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("JavaScript")}> JavaScript
                 </Link>,
-                <Link className="priority-text" to="/profile" onClick={() => props.onSelectSkill("Java")}> Java</Link>, and
-                <Link className="priority-text" to="/profile" onClick={() => props.onSelectSkill("Python")}> Python.</Link>
+                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("Java")}> Java</Link>, and
+                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("Python")}> Python.</Link>
             </CardText>
 
             <SummaryCardSkillList

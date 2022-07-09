@@ -13,7 +13,7 @@ import { Container, Row, Col } from 'reactstrap';
             </Row>
             <Row>
                 <Col className="text-center"><p className="lead"> <span>I am a process-oriented individual with
-                    a go-getter attitude and a track record of taking <Link className="initiative-link" to="/profile" onClick={() => props.onSelectSkill("Initiative")}><strong>initiative</strong></Link>.</span> <br/>
+                    a go-getter attitude and a track record of taking <Link className="initiative-link" to="/cv-site/profile" onClick={() => props.onSelectSkill("Initiative")}><strong>initiative</strong></Link>.</span> <br/>
                     I am currently based in Tokyo, Japan
                     and am on the lookout for new job opportunities.</p></Col>                   
             </Row>

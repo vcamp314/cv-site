@@ -54,7 +54,7 @@ export class NavHeader extends Component {
     
                     <h1 className="cover-heading"> <strong>Software Developer</strong></h1>
                     <p className="lead lead-subheading">
-                    You can reach me at <a href="mailto:inquiries@vitorcampos.info" className="cover-contact-link" target="_top">inquiries@vitorcampos.info</a> or if you prefer, fill out the below form and I will respond back at the earliest.</p>
+                    You can reach me at <a href="mailto:vitorrc314@gmail.com" className="cover-contact-link" target="_top">vitorrc314@gmail.com</a> and I will respond back at the earliest.</p>
                 </div>
     
             );  

@@ -13,8 +13,9 @@ function App() {
   return (
     <Layout>
       <Switch>      
-        <Route path="/profile" component={Profile} />
-        <Route path="/contact" exact component={Contact} />
+        <Route path="/cv-site/profile" component={Profile} />
+        <Route path="/cv-site/contact" exact component={Contact} />
+        <Route path="/cv-site/" exact component={Home} />
         <Route path="/" exact component={Home} />
       </Switch>
     </Layout>

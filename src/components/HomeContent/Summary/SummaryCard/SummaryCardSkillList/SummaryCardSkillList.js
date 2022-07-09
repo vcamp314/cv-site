@@ -12,7 +12,7 @@ const summary = (props) => {
                 {props.skillList.map((skill, i) => {
                     return (
                         <li key={i}>
-                            <Link to="/profile" onClick={() => props.onSelectSkill(skill)}>{skill}</Link>
+                            <Link to="/cv-site/profile" onClick={() => props.onSelectSkill(skill)}>{skill}</Link>
                         </li>
                     );
                 })}
