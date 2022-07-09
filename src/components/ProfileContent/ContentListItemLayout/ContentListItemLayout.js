@@ -10,7 +10,7 @@ const listItemLayout = (props) => (
     
         <Media>
             <Media left top href={props.url}>
-                <Media object src={props.logo === "" ? placeholderLogo : (props.logo === "site-logo" ? logo : props.logo)} alt={props.logoAlt} />
+                <Media object src={props.logo === "" ? placeholderLogo : (props.logo === "site-logo" ? logo : window.location.origin + props.logo)} alt={props.logoAlt} />
             </Media>
             <Media body>
                 <Media heading>

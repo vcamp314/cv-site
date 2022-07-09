@@ -3,7 +3,7 @@
       {
         "id": "exp01",
         "companyName": "Connex Telecommunications Inc.",
-        "logo": "https://media.licdn.com/dms/image/C4E0BAQH-XWirJpdU_g/company-logo_400_400/0?e=1568246400&v=beta&t=3Tue2loZctspbkNNXKi5wPa52iKXtCY4SBDfKxZ-qDY",
+        "logo": "/connex-logo.png",
         "url": "https://www.connexservice.ca/",
         "title":"Senior Programmer Analyst, Team Lead",
         "location": "Toronto, Canada",
@@ -213,7 +213,7 @@
       {
         "id": "exp002",
         "companyName": "Excapsa Services Inc.",
-        "logo": "http://gambling.li/images/excapsa-logo.jpg",
+        "logo": "/excapsa-logo.jpg",
         "url": "",
         "title":"Software Intern",
         "location": "Toronto, Canada",
@@ -321,7 +321,7 @@
       {
         "id": "edu01",
         "institute": "University of Waterloo",
-        "logo": "https://media.licdn.com/dms/image/C560BAQFI41Ly6leq7Q/company-logo_400_400/0?e=1568246400&v=beta&t=11dWgJr5gr7FOfrRbSGzVI9yG00SUmjTJOUlxRj_u-0",
+        "logo": "/waterloo-logo.jpg",
         "url": "https://uwaterloo.ca/",
         "title": "Bachelor of Applied Science, Honours Mechanical Engineering",
         "location": "Waterloo, Canada",
