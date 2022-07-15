@@ -3,7 +3,7 @@
       {
         "id": "exp01",
         "companyName": "Connex Telecommunications Inc.",
-        "logo": "/connex-logo.png",
+        "logo": "/cv-site/connex-logo.png",
         "url": "https://www.connexservice.ca/",
         "title":"Senior Programmer Analyst, Team Lead",
         "location": "Toronto, Canada",
@@ -213,7 +213,7 @@
       {
         "id": "exp002",
         "companyName": "Excapsa Services Inc.",
-        "logo": "/excapsa-logo.jpg",
+        "logo": "/cv-site/excapsa-logo.jpg",
         "url": "",
         "title":"Software Intern",
         "location": "Toronto, Canada",
@@ -321,7 +321,7 @@
       {
         "id": "edu01",
         "institute": "University of Waterloo",
-        "logo": "/waterloo-logo.jpg",
+        "logo": "/cv-site/waterloo-logo.jpg",
         "url": "https://uwaterloo.ca/",
         "title": "Bachelor of Applied Science, Honours Mechanical Engineering",
         "location": "Waterloo, Canada",

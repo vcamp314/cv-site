@@ -14,21 +14,27 @@ const summary = (props) => {
     return (
         <SummaryCardLayout icon={faReact} iconSize="4x" cardTitle="Frameworks">
 
-            <CardText>My favourite frontend framework to use is
-                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("React")}> React.</Link>
+            <CardText>My favourite stack is
+                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("React")}> Flask </Link>
+                on the backend and
+                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("React")}> React </Link> or
+                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("Vue")}> Vue 3 </Link>
+                on the frontend.
             </CardText>
 
-            <SummaryCardSkillList
-                heading="Frontend frameworks I use:"
-                skillList={["Redux", "React Router", "Reactstrap", "Bootstrap", "jQuery"]} 
-                onSelectSkill={props.onSelectSkill}
-            />
 
             <SummaryCardSkillList
                 heading="Backend frameworks:"
-                skillList={["Django", "Laravel", "ASP.NET"]} 
+                skillList={["Rails", "FastAPI", "Django", "cakePHP", "Laravel"]} 
                 onSelectSkill={props.onSelectSkill}
             />
+
+            <SummaryCardSkillList
+                heading="Frontend frameworks I use:"
+                skillList={["Redux", "React Router", "Reactstrap", "Vuetify", "Next", "Nuxt", "jQuery"]} 
+                onSelectSkill={props.onSelectSkill}
+            />
+
 
         </SummaryCardLayout>
     );

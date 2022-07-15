@@ -17,8 +17,9 @@ const summary = (props) => {
             <CardText>My best languages are
                 <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("JavaScript")}> JavaScript
                 </Link>,
-                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("Java")}> Java</Link>, and
-                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("Python")}> Python.</Link>
+                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("Python")}> Python</Link>,
+                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("Ruby")}> Java</Link>, and
+                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("Java")}> Ruby.</Link>
             </CardText>
 
             <SummaryCardSkillList
@@ -31,7 +32,7 @@ const summary = (props) => {
             <ul className="list-unstyled">
                 <li>English: (Native)</li>
                 <li>Portuguese: (Near-Native)</li>
-                <li>Japanese: (Conversational) </li>
+                <li>Japanese: (Working Proficiency) </li>
             </ul>
         </SummaryCardLayout>
     );

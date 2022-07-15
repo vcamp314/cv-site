@@ -15,19 +15,19 @@ const summary = (props) => {
         <SummaryCardLayout icon={faLaptopCode} iconSize="4x" cardTitle="Other Skills">
 
             <CardText>I advocate
-                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("TDD")}> TDD </Link> methodology and
+                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("TDD")}> TDD </Link> methodology and the use of
                 <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("automated unit testing")}> automated unit testing.</Link>
             </CardText>
 
             <SummaryCardSkillList
                 heading="I test with:"
-                skillList={["Jest/Enzyme", "JUnit", "Python Unittest"]}
+                skillList={["Pytest", "Jest/Enzyme", "JUnit", "RSpec"]}
                 onSelectSkill={props.onSelectSkill}
             />
 
             <SummaryCardSkillList
                 heading="Other technologies I use:"
-                skillList={["Git", "MySQL", "MSSQL", "JSP", "LINUX", "Multi-threading", "MVC", "OOP"]} 
+                skillList={["Git", "MySQL", "Postgres", "OAuth", "Cookiecutter", "Multi-threading", "MVC", "OOP"]} 
                 onSelectSkill={props.onSelectSkill}
             />
         </SummaryCardLayout>
