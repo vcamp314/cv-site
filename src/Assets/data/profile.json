@@ -122,7 +122,7 @@
     {
       "id": "exp0005",
       "companyName": "cloco Co., Ltd.",
-      "logo": "/cv-site/connex-logo.png",
+      "logo": "/cv-site/cloco-logo.svg",
       "url": "https://cloco.co.jp/",
       "title": "Senior System Engineer",
       "location": "Tokyo, Japan",
@@ -231,7 +231,7 @@
     {
       "id": "exp01",
       "companyName": "Connex Telecommunications Inc.",
-      "logo": "/cv-site/cloco-logo.svg",
+      "logo": "/cv-site/connex-logo.png",
       "url": "https://www.connexservice.ca/",
       "title": "Senior Programmer Analyst, Team Lead",
       "location": "Toronto, Canada",
