@@ -21,13 +21,13 @@ const summary = (props) => {
 
             <SummaryCardSkillList
                 heading="I test with:"
-                skillList={["Pytest", "Jest/Enzyme", "JUnit", "RSpec"]}
+                skillList={["Pytest", "Jest/Enzyme", "Cypress", "JUnit", "RSpec"]}
                 onSelectSkill={props.onSelectSkill}
             />
 
             <SummaryCardSkillList
                 heading="Other technologies I use:"
-                skillList={["Git", "MySQL", "Postgres", "OAuth", "Cookiecutter", "Multi-threading", "MVC", "OOP"]} 
+                skillList={["Git", "MySQL", "Postgres", "gRPC", "OAuth", "Cookiecutter", "Multi-threading", "MVC", "OOP"]} 
                 onSelectSkill={props.onSelectSkill}
             />
         </SummaryCardLayout>

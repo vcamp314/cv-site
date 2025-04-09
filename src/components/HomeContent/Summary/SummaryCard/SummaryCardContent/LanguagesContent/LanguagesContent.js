@@ -15,16 +15,16 @@ const summary = (props) => {
         <SummaryCardLayout icon={faJsSquare} iconSize="4x" cardTitle="Languages">
 
             <CardText>My best languages are
-                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("JavaScript")}> JavaScript
+                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("JavaScript")}> TypeScript/JavaScript
                 </Link>,
-                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("Python")}> Python</Link>,
-                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("Ruby")}> Java</Link>, and
-                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("Java")}> Ruby.</Link>
+                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("Go")}> Go</Link>,
+                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("Python")}> Python</Link>, and
+                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("Ruby")}> Ruby.</Link>
             </CardText>
 
             <SummaryCardSkillList
                 heading="Other languages I use:"
-                skillList={["HTML", "CSS", "PHP", "SQL", "C#", "C++", "C", "XML"]} 
+                skillList={["HTML", "CSS", "Dart", "PHP", "SQL", "C#", "C++", "C", "XML"]} 
                 onSelectSkill={props.onSelectSkill}
             />
 

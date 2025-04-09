@@ -17,21 +17,20 @@ const summary = (props) => {
             <CardText>My favourite stack is
                 <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("React")}> Flask </Link>
                 on the backend and
-                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("React")}> React </Link> or
-                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("Vue")}> Vue 3 </Link>
+                <Link className="priority-text" to="/cv-site/profile" onClick={() => props.onSelectSkill("React")}> React </Link>
                 on the frontend.
             </CardText>
 
 
             <SummaryCardSkillList
                 heading="Backend frameworks:"
-                skillList={["Rails", "FastAPI", "Django", "cakePHP", "Laravel"]} 
+                skillList={["Gin", "Rails", "FastAPI", "Django", "cakePHP", "Laravel"]} 
                 onSelectSkill={props.onSelectSkill}
             />
 
             <SummaryCardSkillList
                 heading="Frontend frameworks I use:"
-                skillList={["Redux", "React Router", "Reactstrap", "Vuetify", "Next", "Nuxt", "jQuery"]} 
+                skillList={["Vue", "Redux", "React Router", "Flutter", "Reactstrap", "Vuetify", "Next", "jQuery"]} 
                 onSelectSkill={props.onSelectSkill}
             />
 
